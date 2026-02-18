@@ -1,5 +1,6 @@
+![image alt](https://github.com/0mollo/C3-Mini-Sensor-BMP180-Piggyback/blob/main/BMP%20180%20GY-68%20top%20view.png)  ![image alt](https://github.com/0mollo/C3-Mini-Sensor-BMP180-Piggyback/blob/main/BMP%20180%20GY-68%20bottom%20view.png)
+
 # C3-Mini-Sensor-BMP180-Piggyback
-![image alt](https://github.com/0mollo/C3-Mini-Sensor-BMP180-Piggyback/blob/main/BMP%20180%20GY-68%20top%20view.png)|![image alt](https://github.com/0mollo/C3-Mini-Sensor-BMP180-Piggyback/blob/main/BMP%20180%20GY-68%20bottom%20view.png)
 
 Barometric Pressure, Altitude & Temperature Monitoring Module  
 Version: V1.1  
@@ -62,7 +63,7 @@ Recommended I2C pins:
 
 ##  Included Files
 
-- KiCad Schematic File [See]()
+- KiCad Schematic File [See](https://github.com/0mollo/C3-Mini-Sensor-BMP180-Piggyback/blob/main/BMP%20180%20GY-68.pdf)
 - 3D model (Pictorial)
 - Example firmware
 
