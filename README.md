@@ -1,11 +1,11 @@
 # C3-Mini-Sensor-BMP180-Piggyback
-![image alt]()|![image alt](https://github.com/0mollo/C3-Mini-Sensor-BMP180-Piggyback/blob/main/BMP%20180%20GY-68%20bottom%20view.png)
+![image alt](https://github.com/0mollo/C3-Mini-Sensor-BMP180-Piggyback/blob/main/BMP%20180%20GY-68%20top%20view.png)|![image alt](https://github.com/0mollo/C3-Mini-Sensor-BMP180-Piggyback/blob/main/BMP%20180%20GY-68%20bottom%20view.png)
 
 Barometric Pressure, Altitude & Temperature Monitoring Module  
 Version: V1.1  
 
 
-## 📌 Overview
+##  Overview
 
 The C3-Mini BMP180 Piggyback is a compact add-on board designed for seamless integration with the C3-Mini development board.
 
@@ -21,7 +21,7 @@ This board is part of the Carenuity modular ecosystem.
 
 
 
-## ⚙️ Technical Specifications
+##  Technical Specifications
 
 | Parameter | Value |
 |------------|--------|
@@ -36,7 +36,7 @@ This board is part of the Carenuity modular ecosystem.
 
 
 
-## 🔌 Pin Configuration (BMP180 Header)
+##  Pin Configuration (BMP180 Header)
 
 | Pin | Function |
 |------|----------|
@@ -46,7 +46,7 @@ This board is part of the Carenuity modular ecosystem.
 | SDA | I2C Data |
 
 
-## 🔁 C3-Mini Header Mapping
+##  C3-Mini Header Mapping
 
 The piggyback aligns directly with the C3-Mini GPIO layout.
 
@@ -60,28 +60,15 @@ Recommended I2C pins:
 | GND | GND |
 
 
+##  Included Files
 
-## 🧠 Pull-Up Resistors
-
-This board does **NOT include I2C pull-up resistors**.
-
-Ensure:
-- 4.7kΩ pull-ups on SDA and SCL lines
-- Only one set of pull-ups on the I2C bus
-
-
-
-## 📦 Included Files
-
-- KiCad design files
-- 3D model
-- Gerber files
-- Bill of Materials
+- KiCad Schematic File [See]()
+- 3D model (Pictorial)
 - Example firmware
 
 
 
-## 🛠 Example Arduino Code
+##  Example Arduino Code
 
 ```cpp
 #include <Wire.h>
